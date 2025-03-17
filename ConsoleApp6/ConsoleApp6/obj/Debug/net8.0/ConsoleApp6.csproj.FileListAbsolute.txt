@@ -1,0 +1,4 @@
+C:\Users\PC MOD\Desktop\for рыба\ConsoleApp6\ConsoleApp6\obj\Debug\net8.0\ConsoleApp6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC MOD\Desktop\for рыба\ConsoleApp6\ConsoleApp6\obj\Debug\net8.0\ConsoleApp6.AssemblyInfoInputs.cache
+C:\Users\PC MOD\Desktop\for рыба\ConsoleApp6\ConsoleApp6\obj\Debug\net8.0\ConsoleApp6.AssemblyInfo.cs
+C:\Users\PC MOD\Desktop\for рыба\ConsoleApp6\ConsoleApp6\obj\Debug\net8.0\ConsoleApp6.csproj.CoreCompileInputs.cache
