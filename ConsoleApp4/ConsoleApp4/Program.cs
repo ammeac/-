@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MultiplicationTable
+namespace Table
 {
     class Program
     {
