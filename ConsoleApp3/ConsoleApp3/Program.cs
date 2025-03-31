@@ -1,33 +1,30 @@
 ﻿using System;
 
-namespace BankDeposit
+namespace Bank2
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Введите сумму вашего вклада:");
-
-            decimal depositAmount = Convert.ToDecimal(Console.ReadLine());
-
+            decimal deposit = Convert.ToDecimal(Console.ReadLine());
+            
             Console.WriteLine("Введите количество месяцев, на которые хотите сделать вклад:");
 
-            int numberOfMonths = Convert.ToInt32(Console.ReadLine());
+            int Months = Convert.ToInt32(Console.ReadLine());
 
-            decimal currentAmount = depositAmount;
+            decimal current = deposit;
             decimal interestRate = 0.07m;
             int month = 1;
 
-            while (month <= numberOfMonths)
+            while (month <= Months)
             {
-                decimal monthlyInterest = currentAmount * interestRate;
-
-                currentAmount = currentAmount + monthlyInterest;
-
+                decimal monthlyInterest = current * interestRate;
+                current = current + monthlyInterest;
                 month++;
             }
 
-            Console.WriteLine("Через " + numberOfMonths + " месяцев на вашем вкладе будет: " + currentAmount.ToString("F2") + " рублей.");
+            Console.WriteLine("Через " + Months + " месяцев на вкладе будет: " + current.ToString("F2") + " рублей.");
         }
     }
 }
